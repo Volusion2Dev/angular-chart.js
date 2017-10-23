@@ -192,7 +192,7 @@
         type: type,
         data: data,
         options: options,
-        plugins: $scope.chartPlugins
+        plugins: scope.chartPlugins
       });
       scope.$emit('chart-create', scope.chart);
       bindEvents(cvs, scope);
