@@ -105,7 +105,7 @@
           chartData: '=?',
           chartLabels: '=?',
           chartOptions: '=?',
-          chartPlugins: '=?'
+          chartPlugins: '=?',
           chartSeries: '=?',
           chartColors: '=?',
           chartClick: '=?',

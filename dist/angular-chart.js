@@ -114,6 +114,7 @@
           chartData: '=?',
           chartLabels: '=?',
           chartOptions: '=?',
+          chartPlugins: '=?',
           chartSeries: '=?',
           chartColors: '=?',
           chartClick: '=?',
@@ -190,7 +191,8 @@
       scope.chart = new ChartJs.Chart(ctx, {
         type: type,
         data: data,
-        options: options
+        options: options,
+        plugins: $scope.chartPlugins
       });
       scope.$emit('chart-create', scope.chart);
       bindEvents(cvs, scope);
